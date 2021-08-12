@@ -19,7 +19,7 @@ const LaunchCard = ({ launch }) => {
         <Item.Image size='large' src={launch?.links.flickr.original.length !== 0 ? launch?.links.flickr.original[0] : launch.links.patch.large} />
 
         <Item.Content verticalAlign='middle'>
-          <Item.Header as='a'>{launch?.name}</Item.Header>
+          <Item.Header as={Link} to={`/launches/${launch?.id}`}>{launch?.name}</Item.Header>
           <Item.Meta>
             <span>{formattedDate}</span>
             <span>{formattedTime}</span>
@@ -48,7 +48,7 @@ const LaunchCard = ({ launch }) => {
               launch?.links.article, "_blank")} icon='newspaper outline' content='Keep Reading' />
           </Item.Extra>
           <Item.Meta>
-            <Label color='black' as={Link} to={`/launches/${launch?.id}`} content='More Info About this Launch' />
+            <Label color='black' as={Link} to={`/launches/${launch?.id}`} content='Click For More Info About this Launch' />
           </Item.Meta>
         </Item.Content>
       </Item>
