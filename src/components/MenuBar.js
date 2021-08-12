@@ -3,7 +3,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const MenuBar = () => {
-  const [activeItem, setActiveItem] = useState('home');
+  const pathname = window.location.pathname;
+  const path = pathname === '/' ? 'launches' : pathname.substr(1);
+
+  const [activeItem, setActiveItem] = useState(path);
 
   const handleItemClick = (e, { name }) => {
     setActiveItem(name);

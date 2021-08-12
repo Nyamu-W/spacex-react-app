@@ -59,9 +59,6 @@ const SingleLaunch = (props) => {
                       <Item.Description>
                         {launch?.details}
                       </Item.Description>
-                      <Item.Meta>
-                        {`More Info: `}
-                      </Item.Meta>
                     </Item.Content>
                   </Item>
                 </Item.Group>
