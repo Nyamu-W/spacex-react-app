@@ -16,7 +16,7 @@ const SingleCrew = (props) => {
     }
 
     getCrew();
-  }, []);
+  }, []); //eslint-disable-line
 
   // Fetch Crew Member
   const fetchCrew = async () => {

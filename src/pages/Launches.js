@@ -28,7 +28,7 @@ const Launches = () => {
 
     getLaunches();
     return () => abortController.abort();
-  }, []);
+  }, []); //eslint-disable-line
 
 
   // Fetch launch data from API

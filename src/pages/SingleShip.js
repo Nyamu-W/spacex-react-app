@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Grid, Item, Segment, Label, List } from 'semantic-ui-react';
+import { Grid, Item, Segment, Label } from 'semantic-ui-react';
 
 const SingleShip = (props) => {
   const [ship, setShip] = useState(null);
@@ -15,7 +15,7 @@ const SingleShip = (props) => {
     }
 
     getShip();
-  }, []);
+  }, []); //eslint-disable-line
 
   // Fetch Crew Member
   const fetchShip = async () => {

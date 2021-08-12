@@ -15,7 +15,7 @@ const SingleLaunch = (props) => {
     }
 
     getLaunch();
-  }, []);
+  }, []); //eslint-disable-line
 
   // Fetch Crew Member
   const fetchLaunch = async () => {

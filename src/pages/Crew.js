@@ -19,7 +19,7 @@ const Crew = () => {
 
     getCrew();
     return () => abortController.abort();
-  }, []);
+  }, []); //eslint-disable-line
 
 
   // Fetch Crew Members data from API
