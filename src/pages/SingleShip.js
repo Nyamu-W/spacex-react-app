@@ -52,8 +52,10 @@ const SingleShip = (props) => {
                         {ship?.name}
                       </Item.Header>
                       <Item.Description>
-                        <p><span style={{ color: 'rgba(0,0,0,0.6)', marginRight: '10px' }}>Year Built:</span><span style={{ fontWeight: 'bold' }}>{ship?.year_built}</span></p>
-                        <p><span style={{ color: 'rgba(0,0,0,0.6)', marginRight: '10px' }}>Mass:</span><span style={{ fontWeight: 'bold' }}>{ship?.mass_kg}kg</span></p>
+                        {ship?.year_built && <p><span className='shipDetailsLabel'>Year Built:</span><span className='shipInfo'>{ship?.year_built}</span></p>}
+                        {ship?.mass_kg && <p><span className='shipDetailsLabel'>Mass:</span><span className='shipInfo'>{ship?.mass_kg}kg</span></p>}
+                        <p><span className='shipDetailsLabel'>Home Port:</span><span className='shipInfo'>{ship?.home_port}kg</span></p>
+                        <p><span className='shipDetailsLabel'>Type:</span><span className='shipInfo'>{ship?.type}kg</span></p>
                       </Item.Description>
                       <Item.Extra>
                         <Label as='a' color='black' onClick={(e) => window.open(

@@ -34,3 +34,15 @@ html {
 .footer {
   margin: 10px;
 }
+
+.shipDetailsLabel {
+  font: 0.6em;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 10px;
+}
+
+.shipInfo {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}

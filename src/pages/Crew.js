@@ -38,7 +38,7 @@ const Crew = () => {
   const filteredCrew = crew.filter(c => c.name.toLowerCase().includes(searchTerm.toLocaleLowerCase()));
 
 
-  const resultRenderer = ({ name, id }) => <Label as={Link} to={`/crew/${id}`} content={name} />
+  const resultRenderer = ({ title, id }) => <Label as={Link} to={`/crew/${id}`} content={title} />
 
   return (
     <>
@@ -56,7 +56,7 @@ const Crew = () => {
                   size='large'
                   onSearchChange={(e, data) => setSearchTerm(data.value)}
                   resultRenderer={resultRenderer}
-                  results={searchTerm.length === 0 ? null : filteredCrew}
+                  results={filteredCrew.map(crew => { return { title: crew.name, id: crew.id } })}
                   value={searchTerm}
                 />
 
