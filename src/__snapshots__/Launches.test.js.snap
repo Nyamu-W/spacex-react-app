@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launches fetch launches 1`] = `
+Array [
+  <div
+    className="ui fluid container fullPage"
+  >
+    <div
+      className="ui large inverted top fixed menu"
+    >
+      <div
+        className="header item"
+        onClick={[Function]}
+      >
+        SpaceX
+      </div>
+      <a
+        className="active item"
+        href="/launches"
+        onClick={[Function]}
+      >
+        Launches
+      </a>
+      <a
+        className="item"
+        href="/ships"
+        onClick={[Function]}
+      >
+        Ships
+      </a>
+      <a
+        className="item"
+        href="/crew"
+        onClick={[Function]}
+      >
+        Crew
+      </a>
+    </div>
+    <div
+      className="ui centered padded one column grid"
+    >
+      <div
+        className="row"
+      />
+      <div
+        className="row"
+      >
+        <h1>
+          Launches
+        </h1>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          aria-disabled={false}
+          aria-expanded={false}
+          aria-multiselectable={true}
+          className="ui multiple selection dropdown"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-atomic={true}
+            aria-live="polite"
+            className="divider default text"
+            role="alert"
+          >
+            Filter by launch year
+          </div>
+          <i
+            aria-hidden="true"
+            className="dropdown icon"
+            onClick={[Function]}
+          />
+          <div
+            className="menu transition"
+          >
+            <div
+              aria-checked={false}
+              aria-selected={true}
+              className="selected item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2021
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2020
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2019
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2018
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2017
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2016
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2015
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2014
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2013
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2012
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2011
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2010
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2009
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2008
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2007
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                2006
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="centered stretched row"
+      >
+        <div
+          className="fourteen wide computer twelve wide large screen sixteen wide mobile sixteen wide tablet ten wide widescreen column"
+        >
+          <div
+            className="ui divided link items"
+          />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          aria-label="Pagination Navigation"
+          className="ui pagination menu"
+          role="navigation"
+        >
+          <a
+            aria-current={false}
+            aria-disabled={false}
+            className="icon item"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            tabIndex={0}
+            type="firstItem"
+            value={1}
+          >
+            <i
+              aria-hidden="true"
+              className="angle double left icon"
+              onClick={[Function]}
+            />
+          </a>
+          <a
+            aria-current={false}
+            aria-disabled={false}
+            className="icon item"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            tabIndex={0}
+            type="prevItem"
+            value={1}
+          >
+            <i
+              aria-hidden="true"
+              className="angle left icon"
+              onClick={[Function]}
+            />
+          </a>
+          <a
+            aria-current={false}
+            aria-disabled={false}
+            className="icon item"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            tabIndex={0}
+            type="nextItem"
+            value={0}
+          >
+            <i
+              aria-hidden="true"
+              className="angle right icon"
+              onClick={[Function]}
+            />
+          </a>
+          <a
+            aria-current={false}
+            aria-disabled={false}
+            className="icon item"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            tabIndex={0}
+            type="lastItem"
+            value={0}
+          >
+            <i
+              aria-hidden="true"
+              className="angle double right icon"
+              onClick={[Function]}
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footer"
+  >
+    <div
+      className="ui labeled button right floated"
+      onClick={[Function]}
+    >
+      <button
+        className="ui black mini basic compact button"
+        tabIndex={0}
+      >
+         
+        Data Source
+      </button>
+      <a
+        className="ui black left pointing label"
+        href="https://github.com/r-spacex/SpaceX-API"
+        onClick={[Function]}
+        target="blank"
+      >
+        <i
+          aria-hidden="true"
+          className="rocket icon"
+          onClick={[Function]}
+        />
+        SpaceX API
+      </a>
+    </div>
+  </div>,
+]
+`;

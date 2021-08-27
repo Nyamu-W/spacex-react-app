@@ -15,6 +15,12 @@
     "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.2"
   },
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": [
+      "./src/jest.setup.js"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -40,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "msw": "^0.35.0",
+    "react-test-renderer": "^17.0.2",
+    "whatwg-fetch": "^3.6.2"
   }
 }
